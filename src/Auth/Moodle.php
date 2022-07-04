@@ -22,7 +22,7 @@ class Moodle extends InternalAuth
     public $name = 'Moodle';
     public $settings = [
         'moodle_auth' => [
-            "name" => "Логин администратора",
+            "name" => "Ссылка на внешний аутенфикатор Moodle",
             'placeholder' => 'https://example.moodle/api/auth.php',
             "type" => "string",
         ],
