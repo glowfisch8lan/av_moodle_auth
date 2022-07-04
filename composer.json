@@ -1,0 +1,21 @@
+{
+  "name": "glowfisch8lan/av_moodle_auth",
+  "version": "0.0.5",
+  "description": "Auth Moodle Module for auth by user account from Moodle in ApeksVuz",
+  "authors": [
+    {
+      "name": "Denis Grigorov",
+      "email": "glowfisch8lan@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "yiisoft/yii2": "~2.0.14",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Glfs\\": "src"
+    }
+  }
+}
