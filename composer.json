@@ -1,6 +1,6 @@
 {
   "name": "glowfisch8lan/av_moodle_auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "library",
   "description": "Auth Moodle Module for auth by user account from Moodle in ApeksVuz",
   "authors": [
