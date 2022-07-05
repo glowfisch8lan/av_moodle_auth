@@ -20,6 +20,6 @@
     }
   },
   "post-install-cmd": [
-    "php -r \"copy('vendor/glowfisch8lan/av_moodle_auth/Moodle.php', 'custom/models/auth2');\""
+    "php -r \"copy('vendor/glowfisch8lan/av_moodle_auth/src/Moodle.php', 'custom/models/auth/Moodle.php')\""
   ]
 }
