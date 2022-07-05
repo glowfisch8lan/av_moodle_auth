@@ -4,3 +4,8 @@
 
 Сценарий установки автоматически копирует файл-заглушки Moodle.php в app\custom\models\auth.
 Перед установкой проверьте, чтобы директория custom\models\auth в корне приложения существовала
+
+Если файл-заглушка не был скопирован, выполните следующую команду
+````
+php -r "copy('vendor/glowfisch8lan/av_moodle_auth/src/Moodle.php', 'custom/models/auth/Moodle.php');"
+````
